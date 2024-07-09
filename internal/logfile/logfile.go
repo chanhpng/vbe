@@ -87,10 +87,10 @@ func Attach(cliApp *cli.App, app *kingpin.Application) {
 	lf.setup(cliApp, app)
 }
 
-var log = logging.Module("kopia")
+var log = logging.Module("vbe")
 
 const (
-	logFileNamePrefix = "kopia-"
+	logFileNamePrefix = "vbe-"
 	logFileNameSuffix = ".log"
 )
 

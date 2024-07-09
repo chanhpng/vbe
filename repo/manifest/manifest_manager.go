@@ -25,7 +25,7 @@ const (
 	manifestIDLength        = 16
 )
 
-var log = logging.Module("kopia/manifest") // +checklocksignore
+var log = logging.Module("vbe/manifest") // +checklocksignore
 
 // ErrNotFound is returned when the metadata item is not found.
 var ErrNotFound = errors.New("not found")

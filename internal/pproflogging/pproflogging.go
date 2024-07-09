@@ -20,7 +20,7 @@ import (
 	"github.com/chanhpng/vbe/repo/logging"
 )
 
-var log = logging.Module("kopia/pproflogging")
+var log = logging.Module("vbe/pproflogging")
 
 // ProfileName the name of the profile (see: runtime/pprof/Lookup).
 type ProfileName string

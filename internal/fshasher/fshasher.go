@@ -18,7 +18,7 @@ import (
 	"github.com/chanhpng/vbe/repo/logging"
 )
 
-var log = logging.Module("kopia/internal/fshasher")
+var log = logging.Module("vbe/internal/fshasher")
 
 // Hash computes a recursive hash of e using the given hasher h.
 func Hash(ctx context.Context, e fs.Entry) ([]byte, error) {

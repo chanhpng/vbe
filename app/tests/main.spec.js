@@ -8,15 +8,15 @@ let electronApp
 function getKopiaUIUnpackedDir() {
   switch (process.platform + "/" + process.arch) {
     case "darwin/x64":
-      return path.resolve("../dist/vbackup-ui/mac");
+      return path.resolve("../dist/vbe-ui/mac");
     case "darwin/arm64":
-      return path.resolve("../dist/vbackup-ui/mac-arm64");
+      return path.resolve("../dist/vbe-ui/mac-arm64");
     case "linux/x64":
-      return path.resolve("../dist/vbackup-ui/linux-unpacked");
+      return path.resolve("../dist/vbe-ui/linux-unpacked");
     case "linux/arm64":
-      return path.resolve("../dist/vbackup-ui/linux-arm64-unpacked");
+      return path.resolve("../dist/vbe-ui/linux-arm64-unpacked");
     case "win32/x64":
-      return path.resolve("../dist/vbackup-ui/win-unpacked");
+      return path.resolve("../dist/vbe-ui/win-unpacked");
     default:
       return null;
   }
@@ -34,11 +34,11 @@ function getMainPath(unpackedDir) {
 function getExecutablePath(unpackedDir) {
   switch (process.platform) {
     case "win32":
-      return path.join(unpackedDir, "VbackupUI.exe");
+      return path.join(unpackedDir, "VbeUI.exe");
     case "darwin":
       return path.join(unpackedDir, "KopiaUI.app", "Contents", "MacOS", "KopiaUI");
     default:
-      return path.join(unpackedDir, "vbackup-ui");
+      return path.join(unpackedDir, "vbe-ui");
   }
 }
 

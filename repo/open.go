@@ -61,7 +61,7 @@ const localCacheIntegrityHMACSecretLength = 16
 //nolint:gochecknoglobals
 var localCacheIntegrityPurpose = []byte("local-cache-integrity")
 
-var log = logging.Module("kopia/repo")
+var log = logging.Module("vbe/repo")
 
 // Options provides configuration parameters for connection to a repository.
 type Options struct {

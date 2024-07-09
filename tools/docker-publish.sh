@@ -3,16 +3,16 @@ set -e
 DIST_DIR=${1:-dist}
 DOCKER_BUILD_DIR=tools/docker
 if [ "$DOCKERHUB_REPO" == "" ]; then
-    DOCKERHUB_REPO=kopia/kopia
+    DOCKERHUB_REPO=vbe/vbe
 fi
 
-cp -r "$DIST_DIR/vbackup_linux_amd64/" "$DOCKER_BUILD_DIR/bin-amd64/"
-chmod 0755 "$DOCKER_BUILD_DIR/bin-amd64/kopia"
+cp -r "$DIST_DIR/vbe_linux_amd64/" "$DOCKER_BUILD_DIR/bin-amd64/"
+chmod 0755 "$DOCKER_BUILD_DIR/bin-amd64/vbe"
 chmod 0755 "$DOCKER_BUILD_DIR/bin-amd64/rclone"
-cp -r "$DIST_DIR/vbackup_linux_arm64/" "$DOCKER_BUILD_DIR/bin-arm64/"
-chmod 0755 "$DOCKER_BUILD_DIR/bin-arm64/kopia"
+cp -r "$DIST_DIR/vbe_linux_arm64/" "$DOCKER_BUILD_DIR/bin-arm64/"
+chmod 0755 "$DOCKER_BUILD_DIR/bin-arm64/vbe"
 chmod 0755 "$DOCKER_BUILD_DIR/bin-arm64/rclone"
-cp -r "$DIST_DIR/vbackup_linux_arm_6/" "$DOCKER_BUILD_DIR/bin-arm/"
+cp -r "$DIST_DIR/vbe_linux_arm_6/" "$DOCKER_BUILD_DIR/bin-arm/"
 chmod 0755 "$DOCKER_BUILD_DIR/bin-arm/kopia"
 chmod 0755 "$DOCKER_BUILD_DIR/bin-arm/rclone"
 

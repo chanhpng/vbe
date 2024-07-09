@@ -17,7 +17,7 @@ import (
 	"github.com/chanhpng/vbe/repo/logging"
 )
 
-var log = logging.Module("kopia/repo/format")
+var log = logging.Module("vbe/repo/format")
 
 // UniqueIDLengthBytes is the length of random unique ID of each repository.
 const UniqueIDLengthBytes = 32

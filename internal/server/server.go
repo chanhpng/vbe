@@ -36,7 +36,7 @@ import (
 	"github.com/chanhpng/vbe/snapshot/snapshotmaintenance"
 )
 
-var log = logging.Module("kopia/server")
+var log = logging.Module("vbe/server")
 
 const (
 	// retry initialization of repository starting at 1s doubling delay each time up to max 5 minutes

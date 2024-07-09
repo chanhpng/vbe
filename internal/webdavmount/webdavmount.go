@@ -15,7 +15,7 @@ import (
 	"github.com/chanhpng/vbe/repo/logging"
 )
 
-var log = logging.Module("kopia/webdavmount")
+var log = logging.Module("vbe/webdavmount")
 
 var (
 	_ os.FileInfo = webdavFileInfo{}

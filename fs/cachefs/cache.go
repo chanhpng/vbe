@@ -11,7 +11,7 @@ import (
 	"github.com/chanhpng/vbe/repo/object"
 )
 
-var log = logging.Module("vbackup/cachefs")
+var log = logging.Module("vbe/cachefs")
 
 const dirCacheExpiration = 24 * time.Hour
 

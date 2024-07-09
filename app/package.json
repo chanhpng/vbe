@@ -1,5 +1,5 @@
 {
-  "name": "vbackup-ui",
+  "name": "vbe-ui",
   "version": "1.0.0",
   "repository": "github:chanhpng/vbe",
   "dependencies": {
@@ -12,12 +12,12 @@
     "uuid": "^9.0.1"
   },
   "author": {
-    "email": "vbackup-pmc@googlegroups.com",
-    "name": "Vbackup Authors"
+    "email": "vbe-pmc@googlegroups.com",
+    "name": "Vbe Authors"
   },
   "build": {
-    "productName": "VbackupUI",
-    "appId": "io.vbackup.ui",
+    "productName": "VbeUI",
+    "appId": "io.vbe.ui",
     "publish": [
       {
         "provider": "github",
@@ -44,7 +44,7 @@
     ],
     "directories": {
       "buildResources": "assets",
-      "output": "../dist/vbackup-ui"
+      "output": "../dist/vbe-ui"
     },
     "nsis": {
       "oneClick": false,
@@ -63,10 +63,10 @@
       ],
       "extraResources": [
         {
-          "from": "../dist/vbackup_windows_amd64_v1",
+          "from": "../dist/vbe_windows_amd64_v1",
           "to": "server",
           "filter": [
-            "vbackup.exe"
+            "vbe.exe"
           ]
         }
       ],
@@ -83,10 +83,10 @@
       "category": "public.app-category.utilities",
       "extraResources": [
         {
-          "from": "../dist/vbackup_darwin_amd64_v1",
+          "from": "../dist/vbe_darwin_amd64_v1",
           "to": "server",
           "filter": [
-            "vbackup"
+            "vbe"
           ]
         }
       ]
@@ -99,10 +99,10 @@
       ],
       "extraResources": [
         {
-          "from": "../dist/vbackup_linux_${arch}",
+          "from": "../dist/vbe_linux_${arch}",
           "to": "server",
           "filter": [
-            "vbackup"
+            "vbe"
           ]
         }
       ]

@@ -37,7 +37,7 @@ const typeKey = manifest.TypeLabelKey
 //nolint:gochecknoglobals
 var GlobalPolicySourceInfo = snapshot.SourceInfo{}
 
-var log = logging.Module("kopia/snapshot/policy")
+var log = logging.Module("vbe/snapshot/policy")
 
 // GetEffectivePolicy calculates effective snapshot policy for a given source by combining the source-specifc policy (if any)
 // with parent policies. The source must contain a path.

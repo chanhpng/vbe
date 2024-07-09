@@ -24,16 +24,16 @@ module.exports = {
     defaultServerBinary: function () {
         if (!app.isPackaged) {
             return {
-                "mac": path.join(__dirname, "..", "..", "dist", "vbackup_darwin_amd64", "vbackup"),
-                "win": path.join(__dirname, "..", "..", "dist", "vbackup_windows_amd64_v1", "vbackup.exe"),
-                "linux": path.join(__dirname, "..", "..", "dist", "vbackup_linux_amd64", "vbackup"),
+                "mac": path.join(__dirname, "..", "..", "dist", "vbe_darwin_amd64", "vbe"),
+                "win": path.join(__dirname, "..", "..", "dist", "vbe_windows_amd64_v1", "vbe.exe"),
+                "linux": path.join(__dirname, "..", "..", "dist", "vbe_linux_amd64", "vbe"),
             }[osShortName]
         }
 
         return {
-            "mac": path.join(process.resourcesPath, "server", "vbackup"),
-            "win": path.join(process.resourcesPath, "server", "vbackup.exe"),
-            "linux": path.join(process.resourcesPath, "server", "vbackup"),
+            "mac": path.join(process.resourcesPath, "server", "vbe"),
+            "win": path.join(process.resourcesPath, "server", "vbe.exe"),
+            "linux": path.join(process.resourcesPath, "server", "vbe"),
         }[osShortName]
     },
     selectByOS: function (x) {

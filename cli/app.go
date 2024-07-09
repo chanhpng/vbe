@@ -27,7 +27,7 @@ import (
 	"github.com/chanhpng/vbe/snapshot/snapshotmaintenance"
 )
 
-var log = logging.Module("vbackup/cli")
+var log = logging.Module("vbe/cli")
 
 var tracer = otel.Tracer("cli")
 
