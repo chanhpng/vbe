@@ -9,8 +9,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/chanhpng/vbackup/internal/retry"
-	"github.com/chanhpng/vbackup/repo/logging"
+	"github.com/chanhpng/vbe/internal/retry"
+	"github.com/chanhpng/vbe/repo/logging"
 )
 
 var log = logging.Module("connection")

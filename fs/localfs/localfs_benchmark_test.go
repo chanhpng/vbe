@@ -8,8 +8,8 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/chanhpng/vbackup/fs"
-	"github.com/chanhpng/vbackup/fs/localfs"
+	"github.com/chanhpng/vbe/fs"
+	"github.com/chanhpng/vbe/fs/localfs"
 )
 
 func BenchmarkReadDir0(b *testing.B) {

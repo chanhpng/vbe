@@ -11,7 +11,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/chanhpng/vbackup/fs"
+	"github.com/chanhpng/vbe/fs"
 )
 
 type filesystemDirectoryIterator struct {

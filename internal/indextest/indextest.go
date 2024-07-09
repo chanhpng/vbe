@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/chanhpng/vbackup/repo/content/index"
+	"github.com/chanhpng/vbe/repo/content/index"
 )
 
 // InfoDiff returns a list of differences between two index.Info, empty if they are equal.

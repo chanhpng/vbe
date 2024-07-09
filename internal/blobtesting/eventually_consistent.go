@@ -11,11 +11,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/chanhpng/vbackup/internal/clock"
-	"github.com/chanhpng/vbackup/internal/gather"
-	"github.com/chanhpng/vbackup/internal/iocopy"
-	"github.com/chanhpng/vbackup/repo/blob"
-	"github.com/chanhpng/vbackup/repo/logging"
+	"github.com/chanhpng/vbe/internal/clock"
+	"github.com/chanhpng/vbe/internal/gather"
+	"github.com/chanhpng/vbe/internal/iocopy"
+	"github.com/chanhpng/vbe/repo/blob"
+	"github.com/chanhpng/vbe/repo/logging"
 )
 
 var eventuallyConsistentLog = logging.Module("eventually-consistent")

@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/chanhpng/vbackup/internal/metrics"
-	"github.com/chanhpng/vbackup/internal/testlogging"
+	"github.com/chanhpng/vbe/internal/metrics"
+	"github.com/chanhpng/vbe/internal/testlogging"
 )
 
 func TestCounterTimeSeries(t *testing.T) {

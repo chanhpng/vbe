@@ -9,15 +9,15 @@ import (
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/require"
 
-	"github.com/chanhpng/vbackup/internal/blobtesting"
-	"github.com/chanhpng/vbackup/internal/cache"
-	"github.com/chanhpng/vbackup/internal/cacheprot"
-	"github.com/chanhpng/vbackup/internal/clock"
-	"github.com/chanhpng/vbackup/internal/fault"
-	"github.com/chanhpng/vbackup/internal/gather"
-	"github.com/chanhpng/vbackup/internal/testlogging"
-	"github.com/chanhpng/vbackup/internal/testutil"
-	"github.com/chanhpng/vbackup/repo/blob"
+	"github.com/chanhpng/vbe/internal/blobtesting"
+	"github.com/chanhpng/vbe/internal/cache"
+	"github.com/chanhpng/vbe/internal/cacheprot"
+	"github.com/chanhpng/vbe/internal/clock"
+	"github.com/chanhpng/vbe/internal/fault"
+	"github.com/chanhpng/vbe/internal/gather"
+	"github.com/chanhpng/vbe/internal/testlogging"
+	"github.com/chanhpng/vbe/internal/testutil"
+	"github.com/chanhpng/vbe/repo/blob"
 )
 
 func TestPersistentLRUCache(t *testing.T) {

@@ -5,9 +5,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chanhpng/vbackup/internal/clock"
-	"github.com/chanhpng/vbackup/internal/user"
-	"github.com/chanhpng/vbackup/repo"
+	"github.com/chanhpng/vbe/internal/clock"
+	"github.com/chanhpng/vbe/internal/user"
+	"github.com/chanhpng/vbe/repo"
 )
 
 const defaultProfileRefreshFrequency = 10 * time.Second

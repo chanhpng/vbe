@@ -8,11 +8,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/chanhpng/vbackup/internal/ctxutil"
-	"github.com/chanhpng/vbackup/internal/ospath"
-	"github.com/chanhpng/vbackup/repo/blob"
-	"github.com/chanhpng/vbackup/repo/blob/filesystem"
-	"github.com/chanhpng/vbackup/repo/blob/sharded"
+	"github.com/chanhpng/vbe/internal/ctxutil"
+	"github.com/chanhpng/vbe/internal/ospath"
+	"github.com/chanhpng/vbe/repo/blob"
+	"github.com/chanhpng/vbe/repo/blob/filesystem"
+	"github.com/chanhpng/vbe/repo/blob/sharded"
 )
 
 //nolint:gochecknoglobals

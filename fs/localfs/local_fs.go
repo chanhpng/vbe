@@ -8,7 +8,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/chanhpng/vbackup/fs"
+	"github.com/chanhpng/vbe/fs"
 )
 
 const numEntriesToRead = 100 // number of directory entries to read in one shot

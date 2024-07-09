@@ -1,8 +1,8 @@
 package blobcrypto
 
 import (
-	"github.com/chanhpng/vbackup/repo/encryption"
-	"github.com/chanhpng/vbackup/repo/hashing"
+	"github.com/chanhpng/vbe/repo/encryption"
+	"github.com/chanhpng/vbe/repo/hashing"
 )
 
 // StaticCrypter implements Crypter interface with static hash and encryption functions.

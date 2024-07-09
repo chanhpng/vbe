@@ -7,8 +7,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/chanhpng/vbackup/repo/logging"
-	"github.com/chanhpng/vbackup/repo/splitter"
+	"github.com/chanhpng/vbe/repo/logging"
+	"github.com/chanhpng/vbe/repo/splitter"
 )
 
 func TestWriteBufferChunk(t *testing.T) {

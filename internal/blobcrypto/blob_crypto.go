@@ -8,10 +8,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/chanhpng/vbackup/internal/gather"
-	"github.com/chanhpng/vbackup/repo/blob"
-	"github.com/chanhpng/vbackup/repo/encryption"
-	"github.com/chanhpng/vbackup/repo/hashing"
+	"github.com/chanhpng/vbe/internal/gather"
+	"github.com/chanhpng/vbe/repo/blob"
+	"github.com/chanhpng/vbe/repo/encryption"
+	"github.com/chanhpng/vbe/repo/hashing"
 )
 
 // Crypter ecapsulates hashing and encryption.

@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/chanhpng/vbackup/internal/bigmap"
-	"github.com/chanhpng/vbackup/internal/testlogging"
+	"github.com/chanhpng/vbe/internal/bigmap"
+	"github.com/chanhpng/vbe/internal/testlogging"
 )
 
 func TestGrowingSet(t *testing.T) {

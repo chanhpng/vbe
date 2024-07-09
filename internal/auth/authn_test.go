@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/chanhpng/vbackup/internal/auth"
+	"github.com/chanhpng/vbe/internal/auth"
 )
 
 func TestAuthentication(t *testing.T) {

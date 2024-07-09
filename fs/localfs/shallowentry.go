@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/chanhpng/vbackup/snapshot"
+	"github.com/chanhpng/vbe/snapshot"
 )
 
 const (

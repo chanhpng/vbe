@@ -12,11 +12,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/chanhpng/vbackup/internal/clock"
-	"github.com/chanhpng/vbackup/internal/logfile"
-	"github.com/chanhpng/vbackup/internal/testutil"
-	"github.com/chanhpng/vbackup/tests/testdirtree"
-	"github.com/chanhpng/vbackup/tests/testenv"
+	"github.com/chanhpng/vbe/internal/clock"
+	"github.com/chanhpng/vbe/internal/logfile"
+	"github.com/chanhpng/vbe/internal/testutil"
+	"github.com/chanhpng/vbe/tests/testdirtree"
+	"github.com/chanhpng/vbe/tests/testenv"
 )
 
 var (

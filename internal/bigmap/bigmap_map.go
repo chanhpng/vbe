@@ -10,7 +10,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/chanhpng/vbackup/internal/gather"
+	"github.com/chanhpng/vbe/internal/gather"
 )
 
 const (

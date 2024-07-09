@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/chanhpng/vbackup/fs"
+	"github.com/chanhpng/vbe/fs"
 )
 
 func TestUTCTimestamp(t *testing.T) {

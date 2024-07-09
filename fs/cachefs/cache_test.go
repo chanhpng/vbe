@@ -13,8 +13,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/chanhpng/vbackup/fs"
-	"github.com/chanhpng/vbackup/internal/testlogging"
+	"github.com/chanhpng/vbe/fs"
+	"github.com/chanhpng/vbe/internal/testlogging"
 )
 
 const expirationTime = 10 * time.Hour

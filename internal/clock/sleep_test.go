@@ -7,8 +7,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/chanhpng/vbackup/internal/clock"
-	"github.com/chanhpng/vbackup/internal/timetrack"
+	"github.com/chanhpng/vbe/internal/clock"
+	"github.com/chanhpng/vbe/internal/timetrack"
 )
 
 func TestSleepInterruptibly_ContextCanceled(t *testing.T) {

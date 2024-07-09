@@ -8,7 +8,7 @@ import (
 
 	"github.com/natefinch/atomic"
 
-	"github.com/chanhpng/vbackup/internal/ospath"
+	"github.com/chanhpng/vbe/internal/ospath"
 )
 
 // Do not prefix files shorter than this, we are intentionally using less than MAX_PATH

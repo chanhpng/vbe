@@ -11,8 +11,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/chanhpng/vbackup/fs"
-	"github.com/chanhpng/vbackup/internal/diff"
+	"github.com/chanhpng/vbe/fs"
+	"github.com/chanhpng/vbe/internal/diff"
 )
 
 var _ fs.Entry = (*testFile)(nil)

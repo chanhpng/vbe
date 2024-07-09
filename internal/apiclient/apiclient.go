@@ -16,9 +16,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/chanhpng/vbackup/internal/timetrack"
-	"github.com/chanhpng/vbackup/internal/tlsutil"
-	"github.com/chanhpng/vbackup/repo/logging"
+	"github.com/chanhpng/vbe/internal/timetrack"
+	"github.com/chanhpng/vbe/internal/tlsutil"
+	"github.com/chanhpng/vbe/repo/logging"
 )
 
 var log = logging.Module("client")

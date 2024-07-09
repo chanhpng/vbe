@@ -4,7 +4,7 @@ import (
 	"io"
 	"sync"
 
-	"github.com/chanhpng/vbackup/repo/logging"
+	"github.com/chanhpng/vbe/repo/logging"
 )
 
 var log = logging.Module("gather") // +checklocksignore

@@ -17,8 +17,8 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/net/context"
 
-	"github.com/chanhpng/vbackup/fs"
-	"github.com/chanhpng/vbackup/repo/logging"
+	"github.com/chanhpng/vbe/fs"
+	"github.com/chanhpng/vbe/repo/logging"
 )
 
 var log = logging.Module("fuse")

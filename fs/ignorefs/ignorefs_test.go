@@ -8,11 +8,11 @@ import (
 
 	"github.com/kylelemons/godebug/pretty"
 
-	"github.com/chanhpng/vbackup/fs"
-	"github.com/chanhpng/vbackup/fs/ignorefs"
-	"github.com/chanhpng/vbackup/internal/mockfs"
-	"github.com/chanhpng/vbackup/internal/testlogging"
-	"github.com/chanhpng/vbackup/snapshot/policy"
+	"github.com/chanhpng/vbe/fs"
+	"github.com/chanhpng/vbe/fs/ignorefs"
+	"github.com/chanhpng/vbe/internal/mockfs"
+	"github.com/chanhpng/vbe/internal/testlogging"
+	"github.com/chanhpng/vbe/snapshot/policy"
 )
 
 var (

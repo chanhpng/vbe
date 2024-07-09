@@ -4,8 +4,8 @@ package blobtesting
 import (
 	"context"
 
-	"github.com/chanhpng/vbackup/internal/fault"
-	"github.com/chanhpng/vbackup/repo/blob"
+	"github.com/chanhpng/vbe/internal/fault"
+	"github.com/chanhpng/vbe/repo/blob"
 )
 
 // Supported faulty methods.

@@ -7,10 +7,10 @@ import (
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/require"
 
-	"github.com/chanhpng/vbackup/internal/gather"
-	"github.com/chanhpng/vbackup/repo/encryption"
-	"github.com/chanhpng/vbackup/repo/format"
-	"github.com/chanhpng/vbackup/repo/hashing"
+	"github.com/chanhpng/vbe/internal/gather"
+	"github.com/chanhpng/vbe/repo/encryption"
+	"github.com/chanhpng/vbe/repo/format"
+	"github.com/chanhpng/vbe/repo/hashing"
 )
 
 func TestBlobCrypto(t *testing.T) {

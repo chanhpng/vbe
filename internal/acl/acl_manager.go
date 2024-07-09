@@ -8,8 +8,8 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/exp/maps"
 
-	"github.com/chanhpng/vbackup/repo"
-	"github.com/chanhpng/vbackup/repo/manifest"
+	"github.com/chanhpng/vbe/repo"
+	"github.com/chanhpng/vbe/repo/manifest"
 )
 
 const (

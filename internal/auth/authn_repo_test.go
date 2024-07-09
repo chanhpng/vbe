@@ -6,10 +6,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/chanhpng/vbackup/internal/auth"
-	"github.com/chanhpng/vbackup/internal/repotesting"
-	"github.com/chanhpng/vbackup/internal/user"
-	"github.com/chanhpng/vbackup/repo"
+	"github.com/chanhpng/vbe/internal/auth"
+	"github.com/chanhpng/vbe/internal/repotesting"
+	"github.com/chanhpng/vbe/internal/user"
+	"github.com/chanhpng/vbe/repo"
 )
 
 func TestRepositoryAuthenticator(t *testing.T) {

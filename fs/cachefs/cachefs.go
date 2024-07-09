@@ -4,7 +4,7 @@ package cachefs
 import (
 	"context"
 
-	"github.com/chanhpng/vbackup/fs"
+	"github.com/chanhpng/vbe/fs"
 )
 
 // DirectoryCacher reads and potentially caches directory entries for a given directory.

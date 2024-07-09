@@ -6,7 +6,7 @@ import (
 	prommodel "github.com/prometheus/client_model/go"
 	"github.com/stretchr/testify/require"
 
-	"github.com/chanhpng/vbackup/internal/metrics"
+	"github.com/chanhpng/vbe/internal/metrics"
 )
 
 func TestCounter_Nil(t *testing.T) {

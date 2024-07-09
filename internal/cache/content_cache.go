@@ -6,11 +6,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/chanhpng/vbackup/internal/cacheprot"
-	"github.com/chanhpng/vbackup/internal/gather"
-	"github.com/chanhpng/vbackup/internal/impossible"
-	"github.com/chanhpng/vbackup/internal/metrics"
-	"github.com/chanhpng/vbackup/repo/blob"
+	"github.com/chanhpng/vbe/internal/cacheprot"
+	"github.com/chanhpng/vbe/internal/gather"
+	"github.com/chanhpng/vbe/internal/impossible"
+	"github.com/chanhpng/vbe/internal/metrics"
+	"github.com/chanhpng/vbe/repo/blob"
 )
 
 // ContentCache caches contents stored in pack blobs.

@@ -8,7 +8,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/chanhpng/vbackup/fs"
+	"github.com/chanhpng/vbe/fs"
 )
 
 // Directory returns an error due to mounting being unsupported on current operating system.

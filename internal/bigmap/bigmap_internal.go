@@ -19,8 +19,8 @@ import (
 	"github.com/edsrzf/mmap-go"
 	"github.com/pkg/errors"
 
-	"github.com/chanhpng/vbackup/internal/tempfile"
-	"github.com/chanhpng/vbackup/repo/logging"
+	"github.com/chanhpng/vbe/internal/tempfile"
+	"github.com/chanhpng/vbe/repo/logging"
 )
 
 const (

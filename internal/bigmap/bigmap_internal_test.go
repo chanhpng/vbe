@@ -10,7 +10,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/chanhpng/vbackup/internal/testlogging"
+	"github.com/chanhpng/vbe/internal/testlogging"
 )
 
 func TestInternalMap(t *testing.T) {

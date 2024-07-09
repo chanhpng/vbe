@@ -11,11 +11,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/chanhpng/vbackup/internal/blobtesting"
-	"github.com/chanhpng/vbackup/internal/cache"
-	"github.com/chanhpng/vbackup/internal/gather"
-	"github.com/chanhpng/vbackup/internal/testlogging"
-	"github.com/chanhpng/vbackup/repo/blob"
+	"github.com/chanhpng/vbe/internal/blobtesting"
+	"github.com/chanhpng/vbe/internal/cache"
+	"github.com/chanhpng/vbe/internal/gather"
+	"github.com/chanhpng/vbe/internal/testlogging"
+	"github.com/chanhpng/vbe/repo/blob"
 )
 
 type newContentCacheFunc func(ctx context.Context, st blob.Storage, cacheStorage cache.Storage) (cache.ContentCache, error)

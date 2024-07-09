@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/chanhpng/vbackup/repo/blob"
+	"github.com/chanhpng/vbe/repo/blob"
 )
 
 // RetentionStorage allows for better testing of retention and object

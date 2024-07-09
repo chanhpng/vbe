@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/chanhpng/vbackup/internal/cacheprot"
-	"github.com/chanhpng/vbackup/internal/gather"
+	"github.com/chanhpng/vbe/internal/cacheprot"
+	"github.com/chanhpng/vbe/internal/gather"
 )
 
 func TestNoStorageProection(t *testing.T) {

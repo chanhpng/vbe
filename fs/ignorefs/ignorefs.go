@@ -9,12 +9,12 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/chanhpng/vbackup/fs"
-	"github.com/chanhpng/vbackup/internal/cachedir"
-	"github.com/chanhpng/vbackup/internal/wcmatch"
-	"github.com/chanhpng/vbackup/repo/logging"
-	"github.com/chanhpng/vbackup/snapshot"
-	"github.com/chanhpng/vbackup/snapshot/policy"
+	"github.com/chanhpng/vbe/fs"
+	"github.com/chanhpng/vbe/internal/cachedir"
+	"github.com/chanhpng/vbe/internal/wcmatch"
+	"github.com/chanhpng/vbe/repo/logging"
+	"github.com/chanhpng/vbe/snapshot"
+	"github.com/chanhpng/vbe/snapshot/policy"
 )
 
 var log = logging.Module("ignorefs")

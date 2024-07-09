@@ -11,9 +11,9 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/chanhpng/vbackup/internal/gather"
-	"github.com/chanhpng/vbackup/internal/testlogging"
-	"github.com/chanhpng/vbackup/repo/blob"
+	"github.com/chanhpng/vbe/internal/gather"
+	"github.com/chanhpng/vbe/internal/testlogging"
+	"github.com/chanhpng/vbe/repo/blob"
 )
 
 // ConcurrentAccessOptions encapsulates parameters for VerifyConcurrentAccess.

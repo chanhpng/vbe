@@ -1,6 +1,6 @@
 package localfs
 
-import "github.com/chanhpng/vbackup/internal/freepool"
+import "github.com/chanhpng/vbe/internal/freepool"
 
 //nolint:gochecknoglobals
 var (

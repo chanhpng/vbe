@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chanhpng/vbackup/fs"
-	"github.com/chanhpng/vbackup/internal/clock"
+	"github.com/chanhpng/vbe/fs"
+	"github.com/chanhpng/vbe/internal/clock"
 )
 
 const (

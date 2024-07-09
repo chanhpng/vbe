@@ -4,11 +4,11 @@ import (
 	"context"
 	"strings"
 
-	"github.com/chanhpng/vbackup/internal/acl"
-	"github.com/chanhpng/vbackup/repo"
-	"github.com/chanhpng/vbackup/repo/manifest"
-	"github.com/chanhpng/vbackup/snapshot"
-	"github.com/chanhpng/vbackup/snapshot/policy"
+	"github.com/chanhpng/vbe/internal/acl"
+	"github.com/chanhpng/vbe/repo"
+	"github.com/chanhpng/vbe/repo/manifest"
+	"github.com/chanhpng/vbe/snapshot"
+	"github.com/chanhpng/vbe/snapshot/policy"
 )
 
 // Authorizer gets authorization info for logged in user.

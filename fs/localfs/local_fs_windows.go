@@ -3,7 +3,7 @@ package localfs
 import (
 	"os"
 
-	"github.com/chanhpng/vbackup/fs"
+	"github.com/chanhpng/vbe/fs"
 )
 
 //nolint:revive

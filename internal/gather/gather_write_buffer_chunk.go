@@ -11,7 +11,7 @@ import (
 )
 
 const (
-	mynamespace                  = "chanhpng/vbackup/internal/gather"
+	mynamespace                  = "chanhpng/vbe/internal/gather"
 	maxCallersToTrackAllocations = 3
 )
 

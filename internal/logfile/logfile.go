@@ -18,12 +18,12 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/chanhpng/vbackup/cli"
-	"github.com/chanhpng/vbackup/internal/clock"
-	"github.com/chanhpng/vbackup/internal/ospath"
-	"github.com/chanhpng/vbackup/internal/zaplogutil"
-	"github.com/chanhpng/vbackup/repo/content"
-	"github.com/chanhpng/vbackup/repo/logging"
+	"github.com/chanhpng/vbe/cli"
+	"github.com/chanhpng/vbe/internal/clock"
+	"github.com/chanhpng/vbe/internal/ospath"
+	"github.com/chanhpng/vbe/internal/zaplogutil"
+	"github.com/chanhpng/vbe/repo/content"
+	"github.com/chanhpng/vbe/repo/logging"
 )
 
 const logsDirMode = 0o700

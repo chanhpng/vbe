@@ -11,8 +11,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/chanhpng/vbackup/internal/connection"
-	"github.com/chanhpng/vbackup/internal/testlogging"
+	"github.com/chanhpng/vbe/internal/connection"
+	"github.com/chanhpng/vbe/internal/testlogging"
 )
 
 var (

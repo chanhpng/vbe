@@ -6,10 +6,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/chanhpng/vbackup/internal/gather"
-	"github.com/chanhpng/vbackup/internal/hmac"
-	"github.com/chanhpng/vbackup/internal/impossible"
-	"github.com/chanhpng/vbackup/repo/encryption"
+	"github.com/chanhpng/vbe/internal/gather"
+	"github.com/chanhpng/vbe/internal/hmac"
+	"github.com/chanhpng/vbe/internal/impossible"
+	"github.com/chanhpng/vbe/repo/encryption"
 )
 
 // encryptionProtectionAlgorithm is the authenticated encryption algorithm used by authenticatedEncryptionProtection.

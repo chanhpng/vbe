@@ -14,9 +14,9 @@ import (
 
 	"github.com/pkg/profile"
 
-	"github.com/chanhpng/vbackup/internal/bigmap"
-	"github.com/chanhpng/vbackup/internal/clock"
-	"github.com/chanhpng/vbackup/repo/logging"
+	"github.com/chanhpng/vbe/internal/bigmap"
+	"github.com/chanhpng/vbe/internal/clock"
+	"github.com/chanhpng/vbe/repo/logging"
 )
 
 const (

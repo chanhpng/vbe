@@ -7,9 +7,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chanhpng/vbackup/internal/clock"
-	"github.com/chanhpng/vbackup/internal/releasable"
-	"github.com/chanhpng/vbackup/repo/logging"
+	"github.com/chanhpng/vbe/internal/clock"
+	"github.com/chanhpng/vbe/internal/releasable"
+	"github.com/chanhpng/vbe/repo/logging"
 )
 
 var log = logging.Module("metrics")

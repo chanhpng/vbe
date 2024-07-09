@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/chanhpng/vbackup/internal/feature"
+	"github.com/chanhpng/vbe/internal/feature"
 )
 
 func TestFeature(t *testing.T) {

@@ -9,9 +9,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/chanhpng/vbackup/fs"
-	"github.com/chanhpng/vbackup/internal/atomicfile"
-	"github.com/chanhpng/vbackup/snapshot"
+	"github.com/chanhpng/vbe/fs"
+	"github.com/chanhpng/vbe/internal/atomicfile"
+	"github.com/chanhpng/vbe/snapshot"
 )
 
 // Helpers to implement storing of "shallow" placeholders for files or

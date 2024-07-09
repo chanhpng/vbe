@@ -5,11 +5,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/chanhpng/vbackup/internal/acl"
-	"github.com/chanhpng/vbackup/internal/repotesting"
-	"github.com/chanhpng/vbackup/repo/manifest"
-	"github.com/chanhpng/vbackup/snapshot"
-	"github.com/chanhpng/vbackup/snapshot/policy"
+	"github.com/chanhpng/vbe/internal/acl"
+	"github.com/chanhpng/vbe/internal/repotesting"
+	"github.com/chanhpng/vbe/repo/manifest"
+	"github.com/chanhpng/vbe/snapshot"
+	"github.com/chanhpng/vbe/snapshot/policy"
 )
 
 const (

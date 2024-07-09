@@ -7,10 +7,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/chanhpng/vbackup/internal/user"
-	"github.com/chanhpng/vbackup/repo/manifest"
-	"github.com/chanhpng/vbackup/snapshot"
-	"github.com/chanhpng/vbackup/snapshot/policy"
+	"github.com/chanhpng/vbe/internal/user"
+	"github.com/chanhpng/vbe/repo/manifest"
+	"github.com/chanhpng/vbe/snapshot"
+	"github.com/chanhpng/vbe/snapshot/policy"
 )
 
 // ContentManifestType is a type that can be used in TargetRule to specify

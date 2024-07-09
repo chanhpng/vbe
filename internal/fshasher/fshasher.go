@@ -13,9 +13,9 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/crypto/blake2s"
 
-	"github.com/chanhpng/vbackup/fs"
-	"github.com/chanhpng/vbackup/internal/iocopy"
-	"github.com/chanhpng/vbackup/repo/logging"
+	"github.com/chanhpng/vbe/fs"
+	"github.com/chanhpng/vbe/internal/iocopy"
+	"github.com/chanhpng/vbe/repo/logging"
 )
 
 var log = logging.Module("kopia/internal/fshasher")
@@ -95,7 +95,7 @@ func header(ctx context.Context, fullpath string, e os.FileInfo) (*tar.Header, e
 
 	// when hashing, compare time to within a second resolution because of
 	// filesystems that don't preserve full timestamp fidelity.
-	// https://travis-ci.org/github/chanhpng/vbackup/jobs/732592885
+	// https://travis-ci.org/github/chanhpng/vbe/jobs/732592885
 	h.ModTime = h.ModTime.Truncate(time.Second).UTC()
 	h.AccessTime = h.ModTime.Truncate(time.Second).UTC()
 	h.ChangeTime = h.ModTime.Truncate(time.Second).UTC()

@@ -3,8 +3,8 @@ package cache
 import (
 	"context"
 
-	"github.com/chanhpng/vbackup/internal/gather"
-	"github.com/chanhpng/vbackup/repo/blob"
+	"github.com/chanhpng/vbe/internal/gather"
+	"github.com/chanhpng/vbe/repo/blob"
 )
 
 // passthroughContentCache is a contentCache which does no caching.

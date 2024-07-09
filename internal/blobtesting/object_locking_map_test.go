@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chanhpng/vbackup/internal/testlogging"
-	"github.com/chanhpng/vbackup/repo/blob"
+	"github.com/chanhpng/vbe/internal/testlogging"
+	"github.com/chanhpng/vbe/repo/blob"
 )
 
 func TestObjectLockingStorage(t *testing.T) {

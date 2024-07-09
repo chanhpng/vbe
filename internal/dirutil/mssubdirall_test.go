@@ -8,8 +8,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/require"
 
-	"github.com/chanhpng/vbackup/internal/dirutil"
-	"github.com/chanhpng/vbackup/internal/testutil"
+	"github.com/chanhpng/vbe/internal/dirutil"
+	"github.com/chanhpng/vbe/internal/testutil"
 )
 
 type testOSI struct {

@@ -13,13 +13,13 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/exp/slices"
 
-	"github.com/chanhpng/vbackup/internal/blobtesting"
-	"github.com/chanhpng/vbackup/internal/cache"
-	"github.com/chanhpng/vbackup/internal/clock"
-	"github.com/chanhpng/vbackup/internal/gather"
-	"github.com/chanhpng/vbackup/internal/testlogging"
-	"github.com/chanhpng/vbackup/internal/testutil"
-	"github.com/chanhpng/vbackup/repo/blob"
+	"github.com/chanhpng/vbe/internal/blobtesting"
+	"github.com/chanhpng/vbe/internal/cache"
+	"github.com/chanhpng/vbe/internal/clock"
+	"github.com/chanhpng/vbe/internal/gather"
+	"github.com/chanhpng/vbe/internal/testlogging"
+	"github.com/chanhpng/vbe/internal/testutil"
+	"github.com/chanhpng/vbe/repo/blob"
 )
 
 func newUnderlyingStorageForContentCacheTesting(t *testing.T) blob.Storage {

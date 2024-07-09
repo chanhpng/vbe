@@ -10,8 +10,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/chanhpng/vbackup/internal/metrics"
-	"github.com/chanhpng/vbackup/repo/logging"
+	"github.com/chanhpng/vbe/internal/metrics"
+	"github.com/chanhpng/vbe/repo/logging"
 )
 
 func TestMetricEmitter_Nil(t *testing.T) {

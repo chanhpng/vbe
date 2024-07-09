@@ -7,7 +7,7 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/require"
 
-	"github.com/chanhpng/vbackup/internal/acl"
+	"github.com/chanhpng/vbe/internal/acl"
 )
 
 func TestAccessLevelJSONSerialization(t *testing.T) {

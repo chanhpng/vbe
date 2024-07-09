@@ -5,10 +5,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chanhpng/vbackup/fs"
-	"github.com/chanhpng/vbackup/internal/clock"
-	"github.com/chanhpng/vbackup/repo/logging"
-	"github.com/chanhpng/vbackup/repo/object"
+	"github.com/chanhpng/vbe/fs"
+	"github.com/chanhpng/vbe/internal/clock"
+	"github.com/chanhpng/vbe/repo/logging"
+	"github.com/chanhpng/vbe/repo/object"
 )
 
 var log = logging.Module("vbackup/cachefs")

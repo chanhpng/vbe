@@ -10,8 +10,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/chanhpng/vbackup/internal/clock"
-	"github.com/chanhpng/vbackup/repo/blob"
+	"github.com/chanhpng/vbe/internal/clock"
+	"github.com/chanhpng/vbe/repo/blob"
 )
 
 var ErrBlobLocked = errors.New("cannot alter object before retention period expires") // +checklocksignore

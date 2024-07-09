@@ -8,7 +8,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/chanhpng/vbackup/internal/gather"
+	"github.com/chanhpng/vbe/internal/gather"
 )
 
 // Append computes HMAC-SHA256 checksum for a given block of bytes and appends it.

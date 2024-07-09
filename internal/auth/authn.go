@@ -8,8 +8,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/tg123/go-htpasswd"
 
-	"github.com/chanhpng/vbackup/repo"
-	"github.com/chanhpng/vbackup/repo/logging"
+	"github.com/chanhpng/vbe/repo"
+	"github.com/chanhpng/vbe/repo/logging"
 )
 
 var log = logging.Module("auth")

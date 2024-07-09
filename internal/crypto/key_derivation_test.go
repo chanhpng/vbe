@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/chanhpng/vbackup/internal/crypto"
+	"github.com/chanhpng/vbe/internal/crypto"
 )
 
 var (

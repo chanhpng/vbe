@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/chanhpng/vbackup/internal/mockfs"
-	"github.com/chanhpng/vbackup/internal/testlogging"
+	"github.com/chanhpng/vbe/internal/mockfs"
+	"github.com/chanhpng/vbe/internal/testlogging"
 )
 
 //nolint:gocritic

@@ -1,6 +1,6 @@
 package cache
 
-import "github.com/chanhpng/vbackup/internal/metrics"
+import "github.com/chanhpng/vbe/internal/metrics"
 
 type metricsStruct struct {
 	metricHitCount                *metrics.Counter

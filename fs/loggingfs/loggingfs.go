@@ -4,8 +4,8 @@ package loggingfs
 import (
 	"context"
 
-	"github.com/chanhpng/vbackup/fs"
-	"github.com/chanhpng/vbackup/internal/timetrack"
+	"github.com/chanhpng/vbe/fs"
+	"github.com/chanhpng/vbe/internal/timetrack"
 )
 
 type loggingOptions struct {

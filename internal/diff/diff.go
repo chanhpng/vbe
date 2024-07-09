@@ -11,10 +11,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/chanhpng/vbackup/fs"
-	"github.com/chanhpng/vbackup/internal/iocopy"
-	"github.com/chanhpng/vbackup/repo/logging"
-	"github.com/chanhpng/vbackup/repo/object"
+	"github.com/chanhpng/vbe/fs"
+	"github.com/chanhpng/vbe/internal/iocopy"
+	"github.com/chanhpng/vbe/repo/logging"
+	"github.com/chanhpng/vbe/repo/object"
 )
 
 const dirMode = 0o700

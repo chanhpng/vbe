@@ -7,7 +7,7 @@ import (
 	"os"
 	"syscall"
 
-	"github.com/chanhpng/vbackup/fs"
+	"github.com/chanhpng/vbe/fs"
 )
 
 func platformSpecificOwnerInfo(fi os.FileInfo) fs.OwnerInfo {
